@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      src="https://img.freepik.com/fotos-gratis/conceito-de-solidariedade-de-vista-superior_23-2148829219.jpg"
+      alt="Imagem de solidariedade"
+    />
+    <p>
+      Existem pessoas precisando muito da sua ajuda! Veja abaixo como ajudar! 😀
+    </p>
+  </div>
+
+  <ion-card [routerLink]="['/tabs/tab2']">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR73I6h_5KUVc5SPzKBOpos0bgPRO8uDkOZKVXc6MfP0NpPVtcRDKSCGgnnZqOP9WihDCg&usqp=CAU"
+        />
+      </ion-thumbnail>
+      <ion-label> Quero doar! </ion-label>
+    </ion-item>
+  </ion-card>
+
+  <ion-card [routerLink]="['/tabs/tab3']">
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="https://cdn-icons-png.flaticon.com/512/493/493808.png" />
+      </ion-thumbnail>
+      <ion-label> Preciso dedoações</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>
